@@ -1,0 +1,40 @@
+## If Else Conditions Exercise 01:
+# 1. Create a code snippet to check user status.
+
+Create a variable with boolean to check if user is logged in or not
+Create a variable with boolean to check if user is pro subscriber or not
+
+If the user is not logged in, console.log"Please log in to see the data".
+If the user is logged in but not a pro subsciber, console.log"Here is your data, consider subscribing to gain access to premium features".
+If the user is logged in and pro subsciber, console.log"Thanks, you are a pro subsciber".
+-----------------------------------------------------------------------------------------
+## If Else Conditions Exercise 02:
+# 2. Create a Marksheet and assign the user his Grade based on his Percentage.
+
+If Percentage is greater than or equal to 90 => A Grade
+If Percentage is greater than or equal to 80 => B Grade
+If Percentage is greater than or equal to 70 => C Grade
+If Percentage is greater than or equal to 60 => D Grade
+If Percentage is less than 60 => F Grade
+________________________________________________________________________________________________________
+
+## Switch Statement Exercise 01:
+# 1. As a user, I want to set an alarm for different days of the week.
+
+Create a variable day of week:
+
+If day of week is Monday, console message "Wake up at 8:00 AM".
+If day of week is Tuesday or Wednesday, console message "Wake up at 9:00 AM".
+If day of week is Thursday, console message "Wake up at 9:30 AM".
+If the day of week is Friday, console message "Wake up at 8:30 AM".
+If day of week is Saturday or Sunday, console message "Wake up at 10:00 AM".
+By Default, console message "Invalid Day".
+________________________________________________________________________________________________________
+
+ ## For Loop Exercises:
+
+1. Print numbers from 1 to 20.
+2. Console the sum of n Natural Numbers(n is a variable).
+3. Print from 20 to 1 in reverse order.
+4. Print all the even numbers from 1 to 40 but not those numbers that can be divisible by 5.
+________________________________________________________________________________________________________
