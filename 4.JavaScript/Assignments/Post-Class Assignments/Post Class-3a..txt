@@ -1,0 +1,78 @@
+## Questions:
+
+1. Function without parameters.
+2. Function without return statement.
+3. Function with multiple return statements.
+______________________________________________________________
+
+##(16) Function Exercise #1
+# JavaScript Function Exercise: Truncate a String
+
+1. Objective:
+Design a JavaScript function called truncatestring that shortens a given string if it exceeds a specified maximum length.
+
+2. Function Definition:
+Create a function named truncatestring.
+The function should take two parameters: the input string str, and the maximum length
+maxLength to truncate the string.
+
+// Example calls:
+console.log(truncatestring("Lorem ipsum dolor sit amet", 10));  
+// Output: "Lorem ipsum."  
+
+console.log(truncatestring("Helloworld",8)); // Output: "Hello, w..."  
+console.log(truncatestring("JavaScript",15)); // Output: "JavaScript"
+------------------------------------------------------------------------------
+##(17) Function Exercise 02:
+# Discount Calculator:
+
+Scenario:
+Imagine running an online store where prices and discounts change often. You need to calculate
+discounts fast and accurately. This is where JavaScript functions come in handy.
+
+The calculateDiscount function is designed to take two parameters:
+
+price: the original price of the product.
+discountPercentage: the percentage of the discount to apply.
+
+Formula to calculate discount:
+
+discount = price * discountPercentage / 100  
+discountedPrice = price - discount  
+
+Output will be:
+Original Price: 1000, Discounted Price: 700 
+-----------------------------------------------------------------------
+##(18) Function Exercise 03:
+# Count Vowels in a String
+
+Objective:
+Create a JavaScript function named countVowels that takes a string as input and returns the number of vowels
+(both lowercase and uppercase) present in the string.
+
+Example calls:
+
+console.log(countVowels("hello"));        // Output: 2  
+console.log(countVowels("HELLO"));        // Output: 2  
+console.log(countVowels("Javascript"));   // Output: 3  
+console.log(countVowels(""));             // Output: 0   
+______________________________________________________________________________________________________
+##() Loop over 2d array with proper formatting as follows:
+
+     array = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+     ]
+
+Output:
+   // Item at row 0 and column 0 is 1.
+   // Item at row 0 and column 1 is 2.
+   // Item at row 0 and column 2 is 3.
+   // Item at row 1 and column 0 is 4.
+   // .
+   // .
+   // .
+   // Item at row 2 and column 2 is 9.
+
+Note: The code should be dynamic enough to handle any 2d array.

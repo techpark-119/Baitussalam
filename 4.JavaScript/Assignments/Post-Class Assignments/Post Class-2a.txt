@@ -1,0 +1,27 @@
+##(13) Array:
+
+1. Sum of all numbers in array.
+2. Find the largest number in an array.
+3. Remove all diplicate values from array and print new array with all the unique value.
+_____________________________________________________________________
+
+##(15) Extras:
+
+1. How to swap two variable values in JS.
+2. Simple trick to convert string to number.
+3. String Concatenation.
+_____________________________________________________________________
+
+##(24) ToDo App:
+# 1. Rules:
+
+"quit" - quit application
+"list" - show all todos
+"new" - will ask for a new todo
+"delete" - will ask for delete a specific todo
+
+2. Assignment:
+
+Handle string/unknown input while deleting todos.
+If the user types any invalid number, it will console "not a valid number".
+-------------------------------------------------------------------------------------------

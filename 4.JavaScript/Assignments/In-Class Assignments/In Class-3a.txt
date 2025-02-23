@@ -1,0 +1,46 @@
+##(4) Escape character Exercises:
+
+# 1. Print a path, your output should look like this:
+Dr suggested, “Do not drink cold water”
+
+2. Print a path, your output should look like this:
+C:\Users\Name\Documents
+
+3. Write a string that spans multiple lines and includes a tab.
+Should print something like:
+
+This is line one  
+    This is line two with a tab 
+__________________________________________________________________________
+##(6) Template Literals Exercise:
+# Use a template literal to  output the following message:
+
+Laptop price is 40000
+
+const product = {
+    name: 'Laptop',
+    price: 40000
+}; 
+Product name and price will be dynamic.
+____________________________________________________________________
+##(9) String Methods Exercise 01:
+# Write a program to reverse a string.
+
+Input: we are learning Javascript
+Output: tpircsavaJ gninrael era ew
+-------------------------------------------------------
+##(10) String Methods Exercise #2
+# Write a program to mask an email address. The program will print the masked version of the email.
+
+The masked version should hide the characters of the username part, leaving only the first
+and last characters visible, and replacing the hidden characters with asterisks (*). The domain part should remain unchanged.
+
+Example:
+"example@example.com" ➔ // Output: "e******e@example.com"
+"john.doe@gmail.com" ➔ //Output: "j******e@gmail.com"
+"ab@c.com" ➔ //Output: "ab@c.com"
+
+Note: No masking is applied if the username length is 2.
+-----------------------------------------------------------------------------------------------------
+
+
