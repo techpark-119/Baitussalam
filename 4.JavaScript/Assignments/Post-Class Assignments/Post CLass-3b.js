@@ -117,5 +117,5 @@ function logExample() {
     console.log(`Hello, ${name}! You are ${age} years old.`);
   }
 
-  console.log("\u00A9 ArhamAli,All rights reserved");
-  console.log("Code Copying is not allowed");
+console.log("\u00A9 ArhamAli,All rights reserved");
+console.log("Code by ArhamAli");

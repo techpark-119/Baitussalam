@@ -1,0 +1,48 @@
+##(4) Numbers Exercise:
+# Write a JavaScript function @reverseInteger that accepts an integer @number and returns its reverse.
+
+The function should handle both positive and negative integers, and it should remove any leading zeros in the reversed number.
+
+Examples:
+
+reverseInteger(981) should return 189.
+reverseInteger(500) should return 5.
+reverseInteger(-15) should return 51.
+reverseInteger(-60) should return 6.
+____________________________________________________
+
+##(6) Math Exercise :
+# Create a function @getRandomInteger the generates a random whole number within a specified range.
+
+The function should accept two parameters, @min and @max, indicating the lowest and highest values possible, both inclusive.
+
+It should return a random integer between these values, inclusive.
+___________________________________________________
+
+##(8) Function + Object Exercise 01:
+# Write a function @decodeCipher which will take @str as parameter to decode or encode it.
+
+The GADERPOLUKI is a simple subsitution cypher used in scouting to encrypt messages.The encryption is based on short, easy to remember key. The key is written as paired letters, which are in the cipher simple replacement.
+
+THe most frequently used key is "GA-DE-RY-PO-LU-KI".
+
+Encode("ABCD")      // => GBCE
+encode("Ala has a cat")     // => Gug, hgs g rgt
+encode("gaderypoluki")      // => agedyropulik
+decode("Gug hgs g cgt")     => Ala has a cat
+decode("agedyropulik")      // => gaderypoliki
+decode("GBCE")      // => ABCD
+___________________________________________________
+
+##(10) Anagram Exercise | Frequency Counter:
+# Given two strings, write a functuon @validAnagram that will take two strings as parameters to determine if the second string is the anagram of first.
+
+An anagram is a word, phrase or name formed by rearranging the letters of another, like cinema formed from iceman.
+
+validAnagram("","")     //true
+validAnagram("aaz","zza")       //false
+validAnagram("rat","car")       //false
+validAnagram("awesome","awesom")        //false
+validAnagram("qwerty","qeywrt")     //true
+____________________________________________________
+

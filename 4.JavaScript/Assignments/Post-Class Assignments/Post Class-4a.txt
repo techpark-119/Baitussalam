@@ -1,0 +1,38 @@
+##(11) 2D Array Exercise | Chunky Monkey:
+# Define the function @chunkyMonkey, which akes two parameters: an array @arr and a number @size.
+E It splits an array (first argument) into groups the length of @size (second argument) and returns them as a @two dimenstional array.
+
+function chunkyMonkey(arr, size) {
+    // Your code here
+}
+
+chunkyMonkey(["a","b","c","d"], 2);
+// should return [["a", "b"], ["c", "d"]]
+
+chunkyMonkey([0,1, 2, 3, 4, 5], 3);
+// should return [[0, 1, 2], [3, 4, 5]]
+
+chunkyMonkey([0,1, 2, 3, 4, 5], 4);
+// should return [[0, 1, 2, 3], [4, 5]]
+____________________________________________________
+
+##(12) Function + Object Exercise 02:
+# Write a function @createCounter. It should accept and initial integer @init. It should return an object with three functions.
+
+The three functions are:
+
+@increment(): increases the current value by 1 and then returns it.
+Decrement(): reduces the current value by 1 and then returns it.
+reset(): sets the current value to @init and then returns it.
+
+Example:
+
+Input: init = 5, calls = ["increment","reset","decrement"]
+Output: [6,5,4]
+
+Explanation:
+
+const counter = createCounter(5);
+counter.increment();        //6
+counter.reset();        //5
+counter.decrement();        //4
