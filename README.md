@@ -12,9 +12,20 @@ It also ensures that new concepts, terms, and updates of JavaScript Programming 
 2. JavaScript Contents which includes:
   * Assignments given to Students to do within the class (In-Class Assignments).
   * Assignments given to Students to do before the next class or specific deadlines (Post-Class Assignments).
-  * Lecture Codes and Programs taught during the class by Teacher that was also in his Repository.
-  * Audios of Class Lectures (Compromized because of file size,soun).
-  * Slides of All the JavaScript Classes.
-  * Other PSDC students's Repostitories and Programs.
+  * Audio of Class Lectures (Compromised because of audio file size,sound echo,noise,etc).
+  * Lecture Codes and Programs taught during the class by Teacher that was also in his Repository. 
+  * Slides(PDFs) of All the JavaScript Classes.
+  * Other PSDC students's Repostitories and Programs for helping purposes.
   * My own working and testing Code during the Class.
   * And Other Contents.
+
+## Some Terms that I defined in this Repository:
+ * For each content group, there is a seperate HTML file for it.
+ * In the "Post-Class" and "In-Class" Assignments folder, numbers(1,2,3,etc) are used to represent Class numbers in respect of slides Numbers.(e.g.: In-Class 1 represents given assignments of Slide 1 sucessfully done within the class).
+ * Also in these both folder mentioned above, "A" represents the Text file mentioning the assignmets given within or after the class(InClass or PostClass), whereas "B" represents the JavaScript file that contains the completed code of the given assigment.(e.g.: PostClass-1a represents for the text file of slide 01 mentioning the given assignment after the class).
+ * Both in the InClass and PostClass assignments folder, Text and JavaScript files are paired to each other for ease.
+ * ## represents main heading and # represents sub-heading.
+ * Next to ##, there is a number in round brackets that specifies the page no. of slides where the assignment is actually located.
+ * "------" horizontal line represents the start of next exercise of the same concept after one, whereas "_____" represents that the next exercise is from the different concept.
+ * The audio file is splitted into three parts (1),(2), and (3) respectively, bacause a standalone file exceeds 100 MB,which can't be published into GitHub due to limitations. That's why I said compromised above. Secondly, these are audio files of class lectures that are ecorded on computer via "audacity". Also, these three audio files combined together represent one entire slide e.g.: 01-01-2025 is slide 05 audio or can be called as "lecture audio"
+ * 
