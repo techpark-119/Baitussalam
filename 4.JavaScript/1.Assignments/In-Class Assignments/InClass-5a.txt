@@ -1,0 +1,42 @@
+##(7) DOM Exercise 01:
+# Code:
+
+<p id="text">Change my style</p>
+<button id="btn">Change Style</button>
+
+Try these:
+
+1. Change the text color to @green.
+2. Set the background color to @lightgray.
+3. Increase the font size to @18px.
+--------------------------------------------------
+##(9) DOM Exercise 02:
+# Code:
+
+<p id="pragraph">Old Text.</p>
+<h1 id="heading">Old Heading</h1>
+
+Try these:
+1. Use @textContent to change the paragraph text to "New paragraph text."
+2. Use @innerText to change the heading text to "New Heading Text."
+-------------------------------------------------
+##(10) DOm Exercise 03:
+# Code:
+
+<div id='content'>This is some content.</div>
+
+Try this:
+
+1. Use @innerHTML to change the content to include a bold text: "This is <strong>bold</strong> content."
+----------------------------------------------------
+##(12) Create a new paragraph element, add text, change its style, and add it to a section.
+# Given the HTML:
+
+<section id="content-section"></section>
+
+Try this:
+
+1. Create a new @<p> element with the text "Hello, Students!"
+2. Set the text color to green and font size to 20px.
+3. Append it to the section with the ID @content-section.
+------------------------------------------------
