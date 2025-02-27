@@ -15,10 +15,10 @@ _____________________________________________________________________
 ##(24) ToDo App:
 # 1. Rules:
 
-"quit" - quit application
-"list" - show all todos
-"new" - will ask for a new todo
-"delete" - will ask for delete a specific todo
+"@quit" - quit application
+"@list" - show all todos
+"@new" - will ask for a new todo
+"@delete" - will ask for delete a specific todo
 
 2. Assignment:
 

@@ -1,10 +1,11 @@
 # Assalamualaikum To All Students and Developers. I Hope Everyone is Good!
-### This Repository is made specially for the help of Baitussalam PSDC students and Other Innovative Learners and it is also my Current Repository.(As of 26 Feb 2025) 
-# What is the purpose of creating and modifying this Repository for a very long period of time?
-The Answer is very simple, instead of getting left to right to gather the information around the internet and having to constantly seeking and learning new things that are outside of your knowledge zone and not only learning from too much other sources for individual concepts but also relying on their information can lead to extreme frustation and time consuming. That's why this masterpiece come in handy!
+### This Repository is made specially for the help of Baitussalam PSDC students and Other Innovative Learners and it is also my Current Repository (As of 26 Feb 2025).
 
-It combines everything into into one piece and set of information in this repository so you don't have to miss out on anything! It also facilitates multiple sources for concepts so if you don't understand any concept from one source in this Repository, other sources within this same Repository are also an option for you. 
-It also ensures that new concepts, terms, and updates of JavaScript Programming is in your reach by adding them, thus keeping you up-to-date.
+# What is the purpose of creating and modifying this Repository time-to-time?
+
+The Answer is simple, instead of getting left to right to gather the information around the internet and repeatedly have to seek and search for new things outside of your knowledge zone and  learning from too much sources for each individual concept or just relying on just one source can leads to extreme frustation and time consuming. That's why this masterpiece come in handy!
+
+It combines everything into into one piece and set of information in this repository so you don't have to miss out on anything! It also facilitates multiple sources for concepts so if you don't understand any concept from one source in this Repository, other sources within this same Repository are also an option for you. It also ensures that new concepts, terms, and updates of JavaScript Programming is in your reach by adding them in this Repository, thus keeping you up-to-date.
 
 ## Contents Included In This Repository:
 
@@ -27,6 +28,7 @@ It also ensures that new concepts, terms, and updates of JavaScript Programming 
  * "##" represents main heading and "#" represents sub-heading.
  * Next to ##, there is a number in round brackets that specifies the page no. of slides where the assignment is actually located.
  * "------" horizontal line represents the start of next exercise of the same concept after one, whereas "_____" represents that the next exercise is from the different concept.
+ * "@" represents function,property,variable,object,array or any other term name. e.g: @math.random, property @color of object @car.
  * Audio files inside the "Audio" folder are the recorded files of class lectures. Each class session audio is splitted into three parts (1),(2), and (3) respectively, otherwise it will exceed 100 MB and can't be published due to Github publish limit of 100 MB. That's why I said compromised above. Also, three parts of audio combined together represents one entire slide. e.g.: 01-01-2025 is slide 05 audio or can be called as "lecture audio"
  * Important files of other developers from their Repositories are also present and located in the "Outsiders" folder.
  * And finally, last but not the least, my own working and testing code during or after the class is also included and located in the "Work" folder.

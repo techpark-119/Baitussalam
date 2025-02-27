@@ -22,7 +22,7 @@ You made it!
 All, done!
 --------------------------------------------------------------------
 ##(16) For Loop Exercise 02:
-# Print the multiplication table of a given number (represented by the variable 'n') from 1 to 10 using a JavaScript
+# Print the multiplication table of a given number (represented by the variable @n) from 1 to 10 using a JavaScript
 for loop.
 
 The output should look like this:
@@ -40,10 +40,10 @@ The output should look like this:
 _____________________________________________________________________________________
 
 ##(19) While Loop Exercise 01:
-# Make a Guess Program that creates a random number between 1 and 10 and then ask the user to guess its value, resulting
-in either correct or wrong.
+# Make a Guess Program that creates a random number between 1 and 10 and then ask the user to guess its value, resulting in either correct or wrong.
 
 Create a for loop that stops when the user guessed the value correctly.
 If the value user prompted is correct, print "You guessed it!".
-If the guessed value is greater than, print "Too high! Guess again."
+If the guessed value is greater than actual than, print "Too high! Guess again."
 And if it is less than, print "Too low! Guess again."
+------------------------------------------------------------------------------------------

@@ -1,0 +1,202 @@
+// Instead of if statement
+//     let a = 4;
+//     let b = 5;
+//   let sum = a >= b ? "adult" : "not adult" ;
+//     console.log(sum);
+
+// Object
+//     let student = {
+//         name : "rashid" ,
+//         rank : 2 ,
+//         city : ["khi", "lahore", "mpk" , "kashmir" ]
+//     }
+//     console.log(student,student.city);
+
+// (for of loop) for string
+// let string = "JavaScript";
+// for (let value of string) {
+//     console.log("value = " ,value)
+// }
+
+// (for of loop) for array
+//     let arr = ["abc","def","ghi","jkl"]
+//     for (let val of arr) {
+//         console.log("val = " ,val)
+//     }
+
+// (for in loop) for object
+// let obj = {
+//     student : "alason",
+//     rank : 3,
+//     class : "1st year",
+//     college : "ali garh",
+// }
+// for (let i in obj) {
+//     console.log(i ,",value =",obj[i]);
+// }
+
+// 100 even numbers
+// for (let i = 0; i <= 100; i++) {
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// }
+
+// Game
+// let gameNum = 25;
+// let userNum = prompt("Guess the number");
+
+// while (gameNum != userNum){
+//     userNum = prompt("OOPS , you have entered a wrong number !");
+// }
+//     console.log("Congratulations, you have guessed it !");
+
+// object
+//     let parkison = {
+//     student : "alason",
+//     rank : 3,
+//     class : "1st year",
+//     college : "ali garh",
+// }
+// console.log(parkison.class);
+
+// calculating avg (with local loop)
+//     let sum = 0;
+//     let marks = [85,97,44,37,76,60]
+//     for (let i = 0; i<marks.length; i++) {
+//    console.log(sum = sum + marks[i]);
+//     }
+//     let avg = sum / marks.length ;
+//     console.log(`average marks of students are ${avg}`);
+//     console.log(sum);
+
+// calculating avg. of marks (with for of loop)
+// let sum = 0;
+// let marks = [85,97,44,37,76,60];
+// for (let val of marks ) {
+//     sum += val;
+// }
+// let avg = sum / marks.length ;
+//  console.log(`average marks of students are ${avg}`);
+//  console.log(sum);
+
+// local function
+// function sum(a, b) {
+//    return a + b
+// }
+// console.log(sum(1, 3));
+
+// arrowsum function
+// let  arrowSum = (a, b) => {
+//     return a + b ;
+// }
+// console.log(arrowSum(1, 3));
+
+// function without parameters and return
+// function myfunction() {
+//     console.log("Welcome to my website");
+//     console.log("Good evening everyone");
+// }
+// myfunction();
+
+// counting vowels only small
+// let countVowel = (string) => {
+//     count = 0;
+//     for (let char of string) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
+//             count++;
+//         }
+//     }
+//     console.log(count);
+//     return string ;
+// }
+
+// Counting vowels both capital and small
+// let countVowel = (string) => {
+//     let count=0;
+//     for (let char of string) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "O" || char === "I" || char === "U" ) {
+//             count++;
+//             console.log(`${char} is a vowel`);
+//         }
+//     }
+//     console.log(`there are total ${count} vowels`);
+//     return string ;
+// }
+// console.log(countVowel("Lorem Ipsum is simply dummy text"));
+
+// string to array
+//    let str = "Hello, world";
+//    let words = str.split("");
+//    console.log(words);
+
+// reverse & join
+// let str = "we are learning JavaScript";
+// let reversed = str.split("").reverse().join("");
+// console.log(reversed);
+
+// 2D Array
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+// console.log(`Item at row 0 and column 0 is ${arr[0][0]}\nItem at row 0 and column 1 is ${arr[0][1]}\nItem at row 0 and column 2 is ${arr[0][2]}\nItem at row 1 and column 0 is ${arr[1][0]}\nItem at row 1 and column 1 is ${arr[1][1]}\nItem at row 1 and column 2 is ${arr[1][2]}\nItem at row 2 and column 0 is ${arr[2][0]}\nItem at row 2 and column 1 is ${arr[2][1]}\nItem at row 2 and column 2 is ${arr[2][2]}`);
+
+// Function Exercise #1 (slide 16)
+//    let truncatestring = (str, maxlength) => {
+//        for (i=0; i<=maxlength; i++) {
+//             console.log(str[i]);
+//        }
+//        return str , `only ${maxlength} charachters` ;
+//    }
+//        console.log(truncatestring("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text", 15));
+
+// Function exercise #2 (slide 17)
+// let calculateDiscount = (price, discountPercentage) => {
+//     let discount = price * discountPercentage / 100;
+//     console.log(`Original Price : ${price}, Discount Price : ${discount}`);
+//     return price, discount ;
+// }
+// console.log(calculateDiscount(9000, 20));
+
+// function without parameters
+//    function myfunction() {
+//     console.log("This is my function");
+//     return ;
+//    }
+//     myfunction();
+
+// function without return statement
+// let number = (a, b) => {
+//     console.log(a + b);
+// }
+// console.log(number(2, 3));
+
+// function with multiple return
+//  let number = (a, b) => {
+//     if (a > b) {
+//         return a + b;
+//     } if (a < b) {
+//         return a*b ;
+//     }
+//     if (a = b) {
+//         return a - b ;
+//     }
+
+//  }
+//     console.log(number(8, 5));
+//     console.log(number(3, 5));
+//     console.log(number(6, 6));
+
+// let arr = [67, 56, 12, 45, 90, 39];
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length - 1 - i; j++) {
+//         if (arr[j] > arr[j + 1]) {
+//             let current = arr[j];
+//             arr[j] = arr[j + 1];
+//             arr[j + 1] = current;
+//         }
+//     }
+// }
+// console.log(arr);

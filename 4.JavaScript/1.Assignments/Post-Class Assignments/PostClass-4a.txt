@@ -22,12 +22,12 @@ ____________________________________________________
 The three functions are:
 
 @increment(): increases the current value by 1 and then returns it.
-Decrement(): reduces the current value by 1 and then returns it.
-reset(): sets the current value to @init and then returns it.
+@Decrement(): reduces the current value by 1 and then returns it.
+@reset(): sets the current value to @init and then returns it.
 
 Example:
 
-Input: init = 5, calls = ["increment","reset","decrement"]
+Input: @init = 5, calls = ["increment","reset","decrement"]
 Output: [6,5,4]
 
 Explanation:

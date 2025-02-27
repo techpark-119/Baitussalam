@@ -21,20 +21,20 @@ ________________________________________________________________________________
 ##(10) Switch Statement Exercise 01:
 # As a user, I want to set an alarm for different days of the week.
 
-Create a variable day of week:
+Create a variable @day of week:
 
-If day of week is Monday, console message "Wake up at 8:00 AM".
-If day of week is Tuesday or Wednesday, console message "Wake up at 9:00 AM".
-If day of week is Thursday, console message "Wake up at 9:30 AM".
-If the day of week is Friday, console message "Wake up at 8:30 AM".
-If day of week is Saturday or Sunday, console message "Wake up at 10:00 AM".
-By Default, console message "Invalid Day".
+If @day of week is Monday, console message "Wake up at 8:00 AM".
+If @day of week is Tuesday or Wednesday, console message "Wake up at 9:00 AM".
+If @day of week is Thursday, console message "Wake up at 9:30 AM".
+If @the day of week is Friday, console message "Wake up at 8:30 AM".
+If @day of week is Saturday or Sunday, console message "Wake up at 10:00 AM".
+By @Default, console message "Invalid Day".
 ________________________________________________________________________________________________________
 
  ##(13) For Loop Exercises:
 
 1. Print numbers from 1 to 20.
-2. Console the sum of n Natural Numbers(n is a variable).
+2. Console the sum of @n Natural Numbers(n is a variable).
 3. Print from 20 to 1 in reverse order.
 4. Print all the even numbers from 1 to 40 but not those numbers that can be divisible by 5.
 ________________________________________________________________________________________________________

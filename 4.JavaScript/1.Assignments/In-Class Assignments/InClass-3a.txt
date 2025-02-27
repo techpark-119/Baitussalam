@@ -21,7 +21,7 @@ const product = {
     name: 'Laptop',
     price: 40000
 }; 
-Product name and price will be dynamic.
+Product @name and @price will be dynamic.
 ____________________________________________________________________
 ##(9) String Methods Exercise 01:
 # Write a program to reverse a string.
@@ -42,5 +42,3 @@ Example:
 
 Note: No masking is applied if the username length is 2.
 -----------------------------------------------------------------------------------------------------
-
-

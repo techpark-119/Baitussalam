@@ -8,13 +8,13 @@ How to Access Object Properties Dynamicallay?
 _________________________________________________________________________________
 
 ##(18) Object Exercise 01:
-# Define a new variable called product. It should be an object literal with the following properties:
+# Define a new variable called @product. It should be an object literal with the following properties:
 
-name - set to the string "HP Elitebook Sleeve".
-inStock - set to the boolean true.
-price - set to the number 1000
-totalUnits - set to the number 7.
-colors - set to an array of at least three strings like ["black", "white", "gray"].
+@name - set to the string "HP Elitebook Sleeve".
+@inStock - set to the boolean true.
+@price - set to the number 1000
+@totalUnits - set to the number 7.
+@colors - set to an array of at least three strings like ["black", "white", "gray"].
 --------------------------------------------------------------------------
 ##(20) Object Exercise 02:
 # Given Code:
@@ -26,40 +26,39 @@ const restaurant = {
     state: 'NY',
     zipcode: '11206',
 }
-Your task is to create a variable named 'fullAddress' that points to the string using the information from 'restaurant'.
-'fullAddress' should point to a string that includes the address, city, state, and zipcode from the restaurant object. Make sure to add any necessary commas or spaces between the values as seen in the exacc expected output format shown below.
+Your task is to create a variable named @fullAddress that points to the string using the information from @restaurant.
+@fullAddress should point to a string that includes the address, city, state, and zipcode from the restaurant object. Make sure to add any necessary commas or spaces between the values as seen in the exacc expected output format shown below.
 Expected output: ' "64 Johnson Ave, Brooklyn, NY 11206" '
 ------------------------------------------------------------------------------------------
 ##(22) Object Exercise 03:
 # 1. Task:
 
-Create an object named 'student' with the following properties:
+Create an object named @student with the following properties:
 
-'name' (a string)
-'age' (a number)
-'subjects' (an array of strings)
-'isEnrolled' (a boolean)
+@name: (a string)
+@age: (a number)
+@subjects: (an array of strings)
+@isEnrolled: (a boolean)
 
 2. Instructions:
 
-Log each property of the 'student' object to the console.
-Add a new property 'grade' with a value of "A" to the 'student' object.
-Change the 'isEnrolled' property to 'false'.
+Log each property of the @student object to the console.
+Add a new property @grade with a value of "A" to the @student object.
+Change the @isEnrolled property to 'false'.
 -------------------------------------------------------------------------
 ##(13) Array Of Objects:
 # 1. Task:
 
-Create an array named 'library' that contains three objects. Each object should represent a book and have following properties:
+Create an array named @library that contains three objects. Each object should represent a book and have following properties:
 
-'title' (a string)
-'author' (a string)
-'yearPublished' (a number)
+@title: (a string)
+@author: (a string)
+@yearPublished: (a number)
 
 2. Instructiions:
 
-Add a new book named "System Design" object to the 'library' array.
+Add a new book named @System Design object to the @library array.
 Loop over the library and search for the new book you just added and console all its properties.
-Remove a book by title.
-Update the book years publish date.
-_____________________________________________________________________________________________________
-
+Remove a book by @title.
+Update the book's  @publish date(in years).
+--------------------------------------------------------------------------------------------
