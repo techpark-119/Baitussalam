@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9d483;
+    padding:1px;
+}
+
+.todo{
+    width: 100%;
+    max-width: 450px;
+   
+    background-color: rgb(38,38,38);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.heading1 {
+    color:#cecece;
+    letter-spacing:2px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 40px;
+
+}
+
+.heading2 {
+    color: #fff;
+    display:flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.headingcolor {
+    color: #f9d483;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    border:none;
+    outline:none;
+    background:transparent;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    background-color: #f9d483;
+    padding: 16px 30px;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    color: #d4d4d4;
+    list-style: none;
+    padding: 14px 8px 2px 50px;
+    font-size: 17px;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+}
+
+ul li::before {
+    content:"";
+    position: absolute;
+    background-image: url('https://img.icons8.com/ios/452/unchecked-checkbox.png');
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 1px;
+}

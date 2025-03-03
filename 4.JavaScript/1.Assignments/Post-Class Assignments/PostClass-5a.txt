@@ -1,2 +1,3 @@
 Akshay Saini - Namste Javascript complete.
+Build a ToDo app, but now with complete HTML, CSS, and Javascript.
 Class - 7 Slide read and complete assignment.
