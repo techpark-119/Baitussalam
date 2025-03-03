@@ -17,6 +17,3 @@ if (LoggedIn) {
 // This is the ternary operator method, and it is less memory efficient than the if-else method.
 
 LoggedIn?ProSubscription?console.log(`Thanks, you are a Pro subscriber`):console.log(`Here is your data, consider subscribing to Pro to gain access to premium features`):console.log(`Please login to see the data`);
-=======
-wd40
->>>>>>> 469e93ee5f2665b0e4550f17b9f7a11908510e01
