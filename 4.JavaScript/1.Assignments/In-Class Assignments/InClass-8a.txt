@@ -1,0 +1,138 @@
+## Questions:
+#(4) What wil be the output of the following code?
+
+//Define three functions
+function firstTask() {
+    console.log('Task 1')
+}
+
+fucntion secondTaskt() {
+    setTimeout(() => {
+        console.log('Task 2')
+    }, 2000)
+}
+
+function thirdTask() {
+    console.log('Task 3')
+}
+
+// #Execute the functions
+firstTask()
+secondTask()
+thirdTask()
+
+________________________________________________
+
+##(6) Asynchronous Code Exercise 01:
+# Fix this code using callback:
+
+Code:
+
+let data
+
+function fetchData() {
+    setTimeout(() => {
+        data = { name:'John', age: 30 }
+    }, 2000)
+}
+
+console.log(data)
+
+fetchData()
+
+console.log('Data is being fetched...')
+------------------------------------------
+##(7) Asynchronous Code Exercise 02:
+# Fix the bug, andrun the code in order, use callbacks:
+
+Step 1
+Step 2
+Step 3
+
+Code:
+
+function orderPizza() {
+    setTimeout(() => {
+        console.log('Step 1, ordered')
+    }, 4000)
+}
+
+function preparingPizza() {
+    setTimeout(() => {
+        console.log('step 2, prepared')
+    }, 3000)
+}
+
+function served() {
+    setTimout(() => {
+        console.log('step 3, served')
+    }, 1000)
+}
+
+orderPizza()
+preparingPizza()
+served()
+
+________________________________________________
+
+##(11) Promise Exercise:
+# Fix the bug/code, and run the code in order, use promises
+
+Step 1
+Step 2
+Step 3
+
+Code:
+
+function orderPizza() {
+    setTimeout(() => {
+        console.log('Step 1, ordered')
+    }, 4000)
+}
+
+function preparingPizza() {
+    setTimeout(() => {
+        console.log('step 2. prepared')
+    }, 3000)
+}
+
+function served() {
+    setTimeout(() => {
+        console.log('step 3, served')
+    }, 1000)
+}
+
+orderPizza()
+preparingPizza()
+served()
+
+________________________________________________
+
+##(13) Async Await Exercise:
+# Run the code in order, using async and await.
+
+Step 01
+Step 02
+Step 03
+
+function orderPizza() {
+    setTimeout(() => {
+        console.log('Step 1, ordered')
+    }, 4000)
+}
+
+function preparingPizza() {
+    setTimeout(() => {
+        console.log('step 2. prepared')
+    }, 3000)
+}
+
+function served() {
+    setTimeout(() => {
+        console.log('step 3, served')
+    }, 1000)
+}
+
+orderPizza()
+preparingPizza()
+served()
