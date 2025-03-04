@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Code snippet to check user status
 let LoggedIn = true, ProSubscription = false;
 
@@ -16,4 +15,16 @@ if (LoggedIn) {
 
 // This is the ternary operator method, and it is less memory efficient than the if-else method.
 
-LoggedIn?ProSubscription?console.log(`Thanks, you are a Pro subscriber`):console.log(`Here is your data, consider subscribing to Pro to gain access to premium features`):console.log(`Please login to see the data`);
+if (LoggedIn) {
+  ProSubscription ? console.log(`Thanks, you are a Pro subscriber`) : console.log(`Here is your data, consider subscribing to Pro to gain access to premium features`);
+} else {
+  console.log(`Please login to see the data`);
+} 
+
+LoggedIn
+  ? ProSubscription
+    ? console.log(`Thanks, you are a Pro subscriber`)
+    : console.log(
+        `Here is your data, consider subscribing to Pro to gain access to premium features`
+      )
+  : console.log(`Please login to see the data`);
