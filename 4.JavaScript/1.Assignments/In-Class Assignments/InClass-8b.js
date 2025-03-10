@@ -74,10 +74,18 @@ function served() {
 //     })
 //}
 
- async function main() {
-     const orderPizzaPromise = await orderPizza()
-     console.log(orderPizzaMessage)
-     const prepareP
- }
-main()
+//  async function main() {
+//      const orderPizzaPromise = await orderPizza()
+//      console.log(orderPizzaMessage)
+//      const prepareP
+//  }
+// main()
 
+const fetchData = async () => {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    console.log(response);
+    const json = await response.json();
+    console.log(json);
+}
+
+fetchData();
